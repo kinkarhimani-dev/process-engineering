@@ -109,8 +109,8 @@ Detailed process results are available within the **Aspen HYSYS simulation model
 
 ## Aspen HYSYS Flowsheet
 
-Add your HYSYS flowsheet screenshot below.
-![Gas Sweetening Process Flowsheet](<img width="1416" height="683" alt="image" src="https://github.com/user-attachments/assets/27ef4b42-8851-4caa-a139-545fdae323e2" />
+
+<img width="1416" height="683" alt="image" src="https://github.com/user-attachments/assets/27ef4b42-8851-4caa-a139-545fdae323e2" />
 )
 ```mar
 ```
