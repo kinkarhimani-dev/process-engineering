@@ -111,9 +111,6 @@ Detailed process results are available within the **Aspen HYSYS simulation model
 
 
 <img width="1416" height="683" alt="image" src="https://github.com/user-attachments/assets/27ef4b42-8851-4caa-a139-545fdae323e2" />
-)
-
-```
 
 ---
 
