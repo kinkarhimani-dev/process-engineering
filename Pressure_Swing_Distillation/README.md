@@ -36,15 +36,22 @@ The HP Column further separates the mixture and produces a high-purity **ethanol
 
 ## Simplified Process Flow
 
-`mermaid
-flowchart LR
-    A[Feed<br/>Ethanol + Water<br/>65 °C | 221.3 kPa]
-    B[LP Column<br/>Low Pressure<br/>111.3 kPa]
-    C[Water Product<br/>99.31 mol% H₂O]
-    D[Pump<br/>Pressure Increase]
-    E[HP Column<br/>High Pressure<br/>2000 kPa]
-    F[Ethanol Product<br/>99.00 mol% Ethanol]
-    G[Pressure Reducing Valve]
+```mermaid
+flowchart TD
+
+    A["FEED<br>Ethanol + Water<br>65 °C | 221.3 kPa"]
+
+    B["LP COLUMN<br>Low Pressure<br>111.3 kPa"]
+
+    C["WATER PRODUCT<br>99.31 mol% H₂O"]
+
+    D["PUMP<br>Pressure Increase"]
+
+    E["HP COLUMN<br>High Pressure<br>2000 kPa"]
+
+    F["ETHANOL PRODUCT<br>99.00 mol% Ethanol"]
+
+    G["PRESSURE REDUCING VALVE"]
 
     A --> B
     B --> C
@@ -53,6 +60,7 @@ flowchart LR
     E --> F
     E --> G
     G --> B
+```
 
 
 ##  Process Configuration
