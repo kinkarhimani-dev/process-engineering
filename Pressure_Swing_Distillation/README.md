@@ -34,9 +34,9 @@ The column produces a **water-rich bottom product** and a distillate stream that
 
 The HP Column further separates the mixture and produces a high-purity **ethanol product**. A portion of the HP-column overhead stream is pressure-reduced through a valve and returned to the LP section as a **recycle stream**.
 
-### Simplified Process Flow
+## Simplified Process Flow
 
--
+`mermaid
 flowchart LR
     A[Feed<br/>Ethanol + Water<br/>65 °C | 221.3 kPa]
     B[LP Column<br/>Low Pressure<br/>111.3 kPa]
@@ -54,7 +54,6 @@ flowchart LR
     E --> G
     G --> B
 
---
 
 ##  Process Configuration
 
