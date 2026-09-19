@@ -36,59 +36,25 @@ The HP Column further separates the mixture and produces a high-purity **ethanol
 
 ### Simplified Process Flow
 
---
-            
-┌──────────────────────┐
-│        FEED          │
-│   Ethanol + Water    │
-│     65 °C            │
-│    221.3 kPa         │
-└──────────┬───────────┘
-           │
-           ▼
-┌──────────────────────┐
-│     LP COLUMN        │
-│    Low Pressure      │
-│     111.3 kPa        │
-└──────┬────────┬──────┘
-       │        │
-       │        └─────────────────┐
-       │                          │
-       ▼                          ▼
-┌───────────────┐        ┌──────────────────┐
-│ WATER PRODUCT │        │       PUMP       │
-│ 99.31 mol%   │        │ Pressure Increase │
-│    H₂O        │        └────────┬─────────┘
-└───────────────┘                 │
-                                  ▼
-                         ┌──────────────────────┐
-                         │      HP COLUMN       │
-                         │    High Pressure     │
-                         │      2000 kPa        │
-                         └───────┬─────────┬────┘
-                                 │         │
-                                 │         └─────────────────┐
-                                 ▼                           │
-                         ┌─────────────────┐                 │
-                         │ ETHANOL PRODUCT  │                 │
-                         │  99.00 mol%     │                 │
-                         │    Ethanol      │                 │
-                         └─────────────────┘                 │
-                                                             │
-                                                             ▼
-                                                    ┌─────────────────┐
-                                                    │ PRESSURE         │
-                                                    │ REDUCING VALVE   │
-                                                    └────────┬────────┘
-                                                             │
-                                                             │
-                                                             └──────────►
-                                                                  RECYCLE
-                                                                  TO LP
-                                                                  COLUMN
-``
+-
+flowchart LR
+    A[Feed<br/>Ethanol + Water<br/>65 °C | 221.3 kPa]
+    B[LP Column<br/>Low Pressure<br/>111.3 kPa]
+    C[Water Product<br/>99.31 mol% H₂O]
+    D[Pump<br/>Pressure Increase]
+    E[HP Column<br/>High Pressure<br/>2000 kPa]
+    F[Ethanol Product<br/>99.00 mol% Ethanol]
+    G[Pressure Reducing Valve]
 
----
+    A --> B
+    B --> C
+    B --> D
+    D --> E
+    E --> F
+    E --> G
+    G --> B
+
+--
 
 ##  Process Configuration
 
