@@ -37,25 +37,55 @@ The HP Column further separates the mixture and produces a high-purity **ethanol
 ### Simplified Process Flow
 
 --
-                         Recycle
-                            │
-                            ▼
-Feed ───────────────► LP Column
-                         │
-                         ├────────► Water Product
-                         │
-                         ▼
-                        Pump
-                         │
-                         ▼
-                     HP Column
-                         │
-                         ├────────► Ethanol Product
-                         │
-                         ▼
-                 Pressure Reduction
-                         │
-                         └──────────► Recycle
+            
+┌──────────────────────┐
+│        FEED          │
+│   Ethanol + Water    │
+│     65 °C            │
+│    221.3 kPa         │
+└──────────┬───────────┘
+           │
+           ▼
+┌──────────────────────┐
+│     LP COLUMN        │
+│    Low Pressure      │
+│     111.3 kPa        │
+└──────┬────────┬──────┘
+       │        │
+       │        └─────────────────┐
+       │                          │
+       ▼                          ▼
+┌───────────────┐        ┌──────────────────┐
+│ WATER PRODUCT │        │       PUMP       │
+│ 99.31 mol%   │        │ Pressure Increase │
+│    H₂O        │        └────────┬─────────┘
+└───────────────┘                 │
+                                  ▼
+                         ┌──────────────────────┐
+                         │      HP COLUMN       │
+                         │    High Pressure     │
+                         │      2000 kPa        │
+                         └───────┬─────────┬────┘
+                                 │         │
+                                 │         └─────────────────┐
+                                 ▼                           │
+                         ┌─────────────────┐                 │
+                         │ ETHANOL PRODUCT  │                 │
+                         │  99.00 mol%     │                 │
+                         │    Ethanol      │                 │
+                         └─────────────────┘                 │
+                                                             │
+                                                             ▼
+                                                    ┌─────────────────┐
+                                                    │ PRESSURE         │
+                                                    │ REDUCING VALVE   │
+                                                    └────────┬────────┘
+                                                             │
+                                                             │
+                                                             └──────────►
+                                                                  RECYCLE
+                                                                  TO LP
+                                                                  COLUMN
 ``
 
 ---
