@@ -1,6 +1,6 @@
 # Pressure Swing Distillation – Ethanol–Water Separation
 
-## 📌 Project Overview
+## Project Overview
 
 This project demonstrates the **steady-state simulation of Pressure Swing Distillation (PSD)** for the separation of an **Ethanol–Water mixture** using **Aspen HYSYS**.
 
@@ -15,7 +15,7 @@ This project focuses on applying practical **process simulation, distillation, m
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Simulate an **Ethanol–Water Pressure Swing Distillation** process.
 - Understand the effect of operating pressure on the separation process.
@@ -26,7 +26,7 @@ This project focuses on applying practical **process simulation, distillation, m
 
 ---
 
-## 🔄 Process Description
+## Process Description
 
 The feed enters the **Low-Pressure (LP) Column**, where the initial separation of the Ethanol–Water mixture takes place.
 
@@ -36,7 +36,7 @@ The HP Column further separates the mixture and produces a high-purity **ethanol
 
 ### Simplified Process Flow
 
-```text
+--
                          Recycle
                             │
                             ▼
@@ -56,11 +56,11 @@ Feed ───────────────► LP Column
                  Pressure Reduction
                          │
                          └──────────► Recycle
-```
+``
 
 ---
 
-## ⚙️ Process Configuration
+##  Process Configuration
 
 | Equipment / Stream | Description |
 |---|---|
@@ -75,7 +75,7 @@ Feed ───────────────► LP Column
 
 ---
 
-## 🔬 Simulation Conditions
+##  Simulation Conditions
 
 | Parameter | Value |
 |---|---:|
@@ -93,9 +93,9 @@ Feed ───────────────► LP Column
 
 ---
 
-## 📊 Simulation Results
+## Simulation Results
 
-### 💧 Water Product
+###  Water Product
 
 | Parameter | Result |
 |---|---:|
@@ -103,7 +103,7 @@ Feed ───────────────► LP Column
 | **Water Mole Fraction** | 0.9931 |
 | **Water Purity** | ~99.31 mol% |
 
-### 🍶 Ethanol Product
+###  Ethanol Product
 
 | Parameter | Result |
 |---|---:|
@@ -122,7 +122,7 @@ These results demonstrate the separation performance of the simulated pressure-s
 
 ---
 
-## 🧪 Process Engineering Concepts Applied
+##  Process Engineering Concepts Applied
 
 This simulation demonstrates practical application of:
 
@@ -141,30 +141,15 @@ This simulation demonstrates practical application of:
 
 ---
 
-## 🖥️ Aspen HYSYS Flowsheet
+##  Aspen HYSYS Flowsheet
 
-![Pressure Swing Distillation Aspen HYSYS Flowsheet](pressure-swing-distillation.png)
-
-*Aspen HYSYS steady-state flowsheet for Ethanol–Water Pressure Swing Distillation.*
+<img width="880" height="478" alt="image" src="https://github.com/user-attachments/assets/0f7b69a9-af10-44e7-82ad-c4735f57d9ae" />
 
 ---
 
-## 📁 Repository Structure
-
-```text
-Pressure-Swing-Distillation/
-│
-├── README.md
-│
-├── pressure-swing-distillation.png
-│
-└── HYSYS/
-    └── Pressure-Swing-Distillation.hfl
-```
-
 ---
 
-## 🛠️ Software & Tools
+##  Software & Tools
 
 **Aspen HYSYS**
 
@@ -180,7 +165,7 @@ Used for:
 
 ---
 
-## 📚 Key Learning Outcomes
+##  Key Learning Outcomes
 
 Through this project, I developed practical understanding of:
 
@@ -193,7 +178,7 @@ Through this project, I developed practical understanding of:
 
 ---
 
-## 📌 Project Highlights
+##  Project Highlights
 
 - ✔️ Two-column Pressure Swing Distillation configuration
 - ✔️ LP and HP column integration
@@ -210,6 +195,6 @@ Through this project, I developed practical understanding of:
 
 **Himani Kinkar**
 
-**Chemical Engineer | Process Simulation | Aspen HYSYS**
+**Chemical Engineer | Process Simulation | Aspen HYSYS & Process Simulation**
 
-> *Turning process concepts into simulations.*
+
