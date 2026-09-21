@@ -1,6 +1,6 @@
 # BTX Purification Unit -- Aspen HYSYS Simulation
 
-## 📌 Project Overview
+## Project Overview
 
 This project presents the simulation and design of a **BTX
 (Benzene--Toluene--Xylene) purification unit** using **Aspen HYSYS**.
@@ -10,7 +10,7 @@ benzene and toluene from a BTX feed and achieve high-purity products.
 
 ------------------------------------------------------------------------
 
-## 🎯 Problem Statement
+## Problem Statement
 
 Design a **BTX purification unit** to separate a mixed feed containing:
 
@@ -38,7 +38,7 @@ by determining suitable:
 
 ------------------------------------------------------------------------
 
-## 🔄 Process Configuration
+## Process Configuration
 
 The purification system consists of **two distillation columns**.
 
@@ -63,7 +63,7 @@ concentrated in the bottoms.
 
 ------------------------------------------------------------------------
 
-## 📊 Simulation Results
+## Simulation Results
 
 ### Benzene Product -- T1
 
@@ -88,7 +88,7 @@ specification.
 
 ------------------------------------------------------------------------
 
-## 📐 Simplified Process Flow
+## Simplified Process Flow
 
 ``` text
                     BTX Feed
@@ -125,19 +125,13 @@ specification.
 
 ------------------------------------------------------------------------
 
-## 🖼️ Aspen HYSYS Flowsheet
+## Aspen HYSYS Flowsheet
+<img width="952" height="532" alt="image" src="https://github.com/user-attachments/assets/366081b8-3936-4ef8-913e-72bf8ea3e746" />
 
-Add the simulation screenshot to the repository using the filename:
-
-`BTX_Purification_Flowsheet.png`
-
-Then it will appear here:
-
-![BTX Purification Flowsheet](BTX_Purification_Flowsheet.png)
 
 ------------------------------------------------------------------------
 
-## 🛠️ Software & Tools
+## Software & Tools
 
 -   Aspen HYSYS
 -   Multicomponent Distillation
@@ -149,7 +143,7 @@ Then it will appear here:
 
 ------------------------------------------------------------------------
 
-## 📚 Key Engineering Concepts
+## Key Engineering Concepts
 
 -   BTX separation
 -   Multicomponent distillation
@@ -163,7 +157,7 @@ Then it will appear here:
 
 ------------------------------------------------------------------------
 
-## ✅ Key Outcomes
+## Key Outcomes
 
 -   Developed a **two-column BTX purification process** in Aspen HYSYS.
 -   Achieved **99.90 mol% benzene purity**.
@@ -173,19 +167,7 @@ Then it will appear here:
 
 ------------------------------------------------------------------------
 
-## 📁 Project Files
-
-``` text
-BTX-Purification/
-│
-├── README.md
-├── BTX_Purification.hsc
-└── BTX_Purification_Flowsheet.png
-```
-
-------------------------------------------------------------------------
-
-## 👩‍💻 Author
+## Author
 
 **Himani Kinkar**
 
