@@ -1,9 +1,6 @@
 # Shell & Tube Heat Exchanger Design – Aspen EDR
 
 
-**Process Engineering | Aspen EDR | Heat Exchanger Design | Thermal Design | Process Equipment Design**
-
-
 ## Project Overview
 
 This project demonstrates the **thermal and hydraulic design of a Shell & Tube Heat Exchanger using Aspen Exchanger Design & Rating (EDR)**.
@@ -164,5 +161,5 @@ The simulation should not be used directly for actual plant design, equipment pr
 
 ---
 
-
+**Process Engineering | Aspen EDR | Heat Exchanger Design | Thermal Design | Process Equipment Design**
 
