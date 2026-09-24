@@ -147,6 +147,7 @@ A **Shell & Tube Heat Exchanger** was designed using **Aspen EDR** for cooling *
 ## Author
 
 **Himani Kinkar**
+
 Chemical Engineer | Process Simulation & Process Design
 
 ---
